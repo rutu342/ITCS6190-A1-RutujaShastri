@@ -103,15 +103,12 @@ The following is the actual output produced when I ran make:
 
 The application completed successfully with exit code 0.
 
-Where outputs are written
+## Where outputs are written
 
 The application writes the generated JSON summary to:
 
+```text
 out/summary.json
-
-The out/ directory on the host is bind-mounted to /out inside the application container.
-
-The generated output is intentionally excluded from Git using .gitignore.
 
 # Troubleshooting
 
